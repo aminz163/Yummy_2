@@ -1,0 +1,63 @@
+body{
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    
+}
+
+
+.sidenavInner a{
+    display: block;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.sidnavSide img{
+    width: 70px;
+    display: block;
+}
+
+.sidnavSide i{
+    cursor: pointer;
+}
+
+
+
+.meal{
+    overflow: hidden;
+}
+.meal-layer{
+    transform: translateY(400px);
+    transition: all 1s;
+}
+
+.meal:hover .meal-layer{
+
+    transform: translateX(0px);
+
+}
+
+/* Search styles */
+
+#nameForm{
+    width: 40%;
+    margin-left: 5px;
+}
+
+#firstLetterForm{
+    width: 40%;
+    margin-left: 5px;
+
+}
+
+.formsection input{
+    width: 40%;
+}
+
+h2{
+    cursor: pointer;
+}
+
+.sidenavInner a{
+    font-size: large;
+}
